@@ -1,5 +1,6 @@
 //Min Heap.c
 
+#include <stdio.h>
 int main()
 {
     int heap[10];
