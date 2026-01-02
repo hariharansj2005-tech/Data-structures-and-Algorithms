@@ -1,4 +1,4 @@
-//Graph Implementation Using Adjacency List
+//Graph Using Adjacency List
 
 #include <stdio.h>
 #include <stdlib.h>
