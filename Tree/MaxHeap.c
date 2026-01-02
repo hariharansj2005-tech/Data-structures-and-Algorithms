@@ -1,6 +1,6 @@
 //MaxHeap
-   #include <stdio.h>
 
+#include <stdio.h>
 int main()
 {
     int heap[10];
