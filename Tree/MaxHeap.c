@@ -1,13 +1,14 @@
 //MaxHeap
    #include <stdio.h>
-   #include <stdlib.h>
 
+int main()
+{
     int heap[10];
-    int value,n,size=0,i;
-    printf("Enter of elements : ");
+    int value,i,n,size=0;
+    printf("Enter number of elements : ");
     scanf("%d",&n);
     
-    printf("Enter array value : ");
+    printf("Enter array values : ");
     for(int j=0;j<n;j++)
     {
         scanf("%d",&value);
@@ -23,8 +24,9 @@
             i=(i-1)/2;
         }
     }
-    printf("Max Heap :");
+    printf("Max Heap : ");
     for(int k=0;k<size;k++)
-      printf("%d ",heap[k]);
-
- 
+    {
+        printf("%d ",heap[k]);
+    }
+}
